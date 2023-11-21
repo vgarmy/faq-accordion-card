@@ -33,8 +33,15 @@ body {
   background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 1120px) {
   body {
-      padding: 0 1rem;
+      padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body {
+    padding: 1rem;
+    height: auto;
   }
 }
