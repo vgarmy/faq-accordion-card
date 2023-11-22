@@ -6,7 +6,7 @@ import women from '../../images/illustration-woman-online-mobile.svg'
 
 const Card = () => {
   return (
-    <div className='card_container'>
+    <div className='card_container' role="main">
         <div className='card_container_image'>
           <img src={box} className="imageBox"alt="box" />
           <img src={women} className="womenBox"alt="box" />
